@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+}
+
+main div {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+.classes {
+    display: flex;
+    gap: 5px;
+}
+
+.classes div {
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+}
